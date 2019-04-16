@@ -23,6 +23,10 @@ const ApplicationStyles = {
       paddingTop: Metrics.baseMargin,
       backgroundColor: Colors.transparent
     },
+    centered: {
+      alignItems: 'center',
+      marginTop: '40%'
+    },
     section: {
       margin: Metrics.section,
       padding: Metrics.baseMargin
@@ -44,6 +48,20 @@ const ApplicationStyles = {
       ...Fonts.style.h2,
       fontSize: 14,
       color: Colors.text
+    },
+    sigla: {
+      ...Fonts.style.h1,
+      // fontSize: 24,
+      textAlign: 'center',
+      color: Colors.text,
+      fontWeight: 'bold',
+    },
+    input: {
+      flex: 1,
+      flexDirection: 'row',
+      margin: 10,
+      borderRadius: 30,
+      backgroundColor: '#DCE1E6'
     }
   },
   darkLabelContainer: {
